@@ -1,0 +1,122 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 7460
+License: Customer
+
+Current time: 	Mon May 04 15:10:43 PKT 2026
+Time zone: 	Pakistan Standard Time (Asia/Karachi)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 42 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	UnitechSolutions
+User home directory: C:/Users/UnitechSolutions
+User working directory: C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.1
+RDI_DATADIR: C:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/UnitechSolutions/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/UnitechSolutions/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/UnitechSolutions/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/vivado.log
+Vivado journal file location: 	C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/vivado.jou
+Engine tmp dir: 	C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/.Xil/Vivado-7460-DESKTOP-HQL88OQ
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.1
+XILINX_SDK: C:/Xilinx/SDK/2019.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 559 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// WARNING: HEventQueue.dispatchEvent() is taking  4031 ms.
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 85 MB (+87011kb) [00:00:40]
+// [Engine Memory]: 559 MB (+435104kb) [00:00:40]
+// by (cl):  Open Project : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1135 ms.
+// Opening Vivado Project: C:\Users\UnitechSolutions\Documents\Vivado xlinx\bsce24054_lab8\bsce24054_lab8\bsce24054_lab8.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 561 MB. GUI used memory: 43 MB. Current time: 5/4/26, 3:10:44 PM PKT
+// Tcl Message: open_project {C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 690 MB (+107631kb) [00:00:59]
+// [GUI Memory]: 91 MB (+1834kb) [00:01:02]
+// WARNING: HEventQueue.dispatchEvent() is taking  5370 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 726.051 ; gain = 128.016 
+// HMemoryUtils.trashcanNow. Engine heap size: 718 MB. GUI used memory: 49 MB. Current time: 5/4/26, 3:11:07 PM PKT
+// Project name: bsce24054_lab8; location: C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8; part: xc7vx485tffg1157-1
+dismissDialog("Open Project"); // by (cl)
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 722ms to process. Increasing delay to 3000 ms.
+// [Engine Memory]: 735 MB (+10649kb) [00:01:11]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 20 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_PROJECT, "Open..."); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT

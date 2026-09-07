@@ -1,0 +1,470 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon May  4 12:52:12 2026
+# Process ID: 13188
+# Current directory: C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12952 C:\Users\UnitechSolutions\Documents\Vivado xlinx\bsce24054_lab8\bsce24054_lab8\bsce24054_lab8.xpr
+# Log file: C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/vivado.log
+# Journal file: C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 742.254 ; gain = 123.602
+update_compile_order -fileset sources_1
+set_property top single_cycle [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'imm_shift_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj imm_shift_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/imm_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imm_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_left1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/testBench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imm_shift_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.sim/sim_1/behav/xsim'
+"xelab -wto bca0eda1516b4e7e95455657636b654b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot imm_shift_tb_behav xil_defaultlib.imm_shift_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto bca0eda1516b4e7e95455657636b654b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot imm_shift_tb_behav xil_defaultlib.imm_shift_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.imm_gen
+Compiling module xil_defaultlib.shift_left1
+Compiling module xil_defaultlib.imm_shift_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot imm_shift_tb_behav
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/UnitechSolutions/Documents/Vivado -notrace
+couldn't read file "C:/Users/UnitechSolutions/Documents/Vivado": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Mon May  4 13:16:42 2026...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 792.656 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "imm_shift_tb_behav -key {Behavioral:sim_1:Functional:imm_shift_tb} -tclbatch {imm_shift_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source imm_shift_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+==== Testing ImmGen + Shift ====
+Imm =          1, Shifted =          2
+$finish called at time : 10 ns : File "C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/testBench.v" Line 45
+xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 820.980 ; gain = 16.449
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'imm_shift_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 820.980 ; gain = 28.324
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top single_cycle [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: single_cycle
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1377.391 ; gain = 174.539
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'single_cycle' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:23]
+INFO: [Synth 8-6157] synthesizing module 'pc' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/program-counterr.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'pc' (1#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/program-counterr.v:22]
+WARNING: [Synth 8-3848] Net pc_next in module/entity single_cycle does not have driver. [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'single_cycle' (2#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1442.375 ; gain = 239.523
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1442.375 ; gain = 239.523
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1442.375 ; gain = 239.523
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1549.750 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:24 ; elapsed = 00:00:16 . Memory (MB): peak = 1627.965 ; gain = 425.113
+8 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:31 . Memory (MB): peak = 1627.965 ; gain = 804.137
+close_design
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: single_cycle
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1627.965 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'single_cycle' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:23]
+INFO: [Synth 8-6157] synthesizing module 'pc' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/program-counterr.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'pc' (1#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/program-counterr.v:22]
+WARNING: [Synth 8-3848] Net pc_next in module/entity single_cycle does not have driver. [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'single_cycle' (2#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1627.965 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1627.965 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1627.965 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1660.891 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 1660.891 ; gain = 32.926
+7 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 1660.891 ; gain = 32.926
+close_design
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: single_cycle
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1660.891 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'single_cycle' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:23]
+INFO: [Synth 8-6157] synthesizing module 'pc' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/program-counterr.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'pc' (1#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/program-counterr.v:22]
+INFO: [Synth 8-6157] synthesizing module 'instruction_memory' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/instruction-memory.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'instruction_memory' (2#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/instruction-memory.v:22]
+INFO: [Synth 8-6157] synthesizing module 'register_file' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/register.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'register_file' (3#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/register.v:22]
+WARNING: [Synth 8-3848] Net pc_next in module/entity single_cycle does not have driver. [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:41]
+WARNING: [Synth 8-3848] Net write_data in module/entity single_cycle does not have driver. [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'single_cycle' (4#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:23]
+WARNING: [Synth 8-3331] design instruction_memory has unconnected port addr[1]
+WARNING: [Synth 8-3331] design instruction_memory has unconnected port addr[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1660.891 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1660.891 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1660.891 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1696.348 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 1696.348 ; gain = 35.457
+11 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 1696.348 ; gain = 35.457
+close_design
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: single_cycle
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1728.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'single_cycle' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:23]
+INFO: [Synth 8-6157] synthesizing module 'pc' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/program-counterr.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'pc' (1#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/program-counterr.v:22]
+INFO: [Synth 8-6157] synthesizing module 'instruction_memory' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/instruction-memory.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'instruction_memory' (2#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/instruction-memory.v:22]
+INFO: [Synth 8-6157] synthesizing module 'register_file' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/register.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'register_file' (3#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/register.v:22]
+ERROR: [Synth 8-439] module 'addr_32bit' not found [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:88]
+ERROR: [Synth 8-6156] failed synthesizing module 'single_cycle' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1728.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+7 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: single_cycle
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1728.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'single_cycle' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:23]
+INFO: [Synth 8-6157] synthesizing module 'pc' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/program-counterr.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'pc' (1#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/program-counterr.v:22]
+INFO: [Synth 8-6157] synthesizing module 'instruction_memory' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/instruction-memory.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'instruction_memory' (2#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/instruction-memory.v:22]
+INFO: [Synth 8-6157] synthesizing module 'register_file' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/register.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'register_file' (3#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/register.v:22]
+ERROR: [Synth 8-439] module 'addr_32bit' not found [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:88]
+ERROR: [Synth 8-6156] failed synthesizing module 'single_cycle' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1728.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+7 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: single_cycle
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1728.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'single_cycle' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:23]
+INFO: [Synth 8-6157] synthesizing module 'pc' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/program-counterr.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'pc' (1#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/program-counterr.v:22]
+INFO: [Synth 8-6157] synthesizing module 'instruction_memory' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/instruction-memory.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'instruction_memory' (2#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/instruction-memory.v:22]
+INFO: [Synth 8-6157] synthesizing module 'register_file' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/register.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'register_file' (3#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/register.v:22]
+INFO: [Synth 8-6157] synthesizing module 'adder_32bit' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/adder.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'adder_32bit' (4#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/adder.v:22]
+INFO: [Synth 8-6157] synthesizing module 'imm_gen' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/imm_gen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'imm_gen' (5#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/imm_gen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'shift_left1' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/shift.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'shift_left1' (6#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/shift.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux2_1_32bit' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/multiplexer.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'mux2_1_32bit' (7#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/multiplexer.v:22]
+WARNING: [Synth 8-3848] Net write_data in module/entity single_cycle does not have driver. [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:52]
+INFO: [Synth 8-6155] done synthesizing module 'single_cycle' (8#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:23]
+WARNING: [Synth 8-3331] design imm_gen has unconnected port instr[19]
+WARNING: [Synth 8-3331] design imm_gen has unconnected port instr[18]
+WARNING: [Synth 8-3331] design imm_gen has unconnected port instr[17]
+WARNING: [Synth 8-3331] design imm_gen has unconnected port instr[16]
+WARNING: [Synth 8-3331] design imm_gen has unconnected port instr[15]
+WARNING: [Synth 8-3331] design imm_gen has unconnected port instr[14]
+WARNING: [Synth 8-3331] design imm_gen has unconnected port instr[13]
+WARNING: [Synth 8-3331] design imm_gen has unconnected port instr[12]
+WARNING: [Synth 8-3331] design instruction_memory has unconnected port addr[1]
+WARNING: [Synth 8-3331] design instruction_memory has unconnected port addr[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1728.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1728.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1728.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1763.469 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 1797.457 ; gain = 68.582
+19 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 1797.457 ; gain = 68.582
+close_design
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: single_cycle
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1941.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'single_cycle' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:21]
+INFO: [Synth 8-6157] synthesizing module 'pc' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/program-counterr.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'pc' (1#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/program-counterr.v:22]
+INFO: [Synth 8-6157] synthesizing module 'instruction_memory' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/instruction-memory.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'instruction_memory' (2#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/instruction-memory.v:22]
+INFO: [Synth 8-6157] synthesizing module 'register_file' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/register.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'register_file' (3#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/register.v:22]
+INFO: [Synth 8-6157] synthesizing module 'adder_32bit' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/adder.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'adder_32bit' (4#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/adder.v:22]
+INFO: [Synth 8-6157] synthesizing module 'imm_gen' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/imm_gen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'imm_gen' (5#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/imm_gen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'shift_left1' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/shift.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'shift_left1' (6#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/shift.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux2_1_32bit' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/multiplexer.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'mux2_1_32bit' (7#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/multiplexer.v:22]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/ALU.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (8#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/ALU.v:22]
+INFO: [Synth 8-6157] synthesizing module 'data_memory' [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/data-memory.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'data_memory' (9#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/data-memory.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'single_cycle' (10#1) [C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.srcs/sources_1/new/single_cycle.v:21]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[31]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[30]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[29]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[28]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[27]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[26]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[25]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[24]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[23]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[22]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[21]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[20]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[19]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[18]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[17]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[16]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[15]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[14]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[13]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[12]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[11]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[10]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[9]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[8]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[1]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[0]
+WARNING: [Synth 8-3331] design imm_gen has unconnected port instr[19]
+WARNING: [Synth 8-3331] design imm_gen has unconnected port instr[18]
+WARNING: [Synth 8-3331] design imm_gen has unconnected port instr[17]
+WARNING: [Synth 8-3331] design imm_gen has unconnected port instr[16]
+WARNING: [Synth 8-3331] design imm_gen has unconnected port instr[15]
+WARNING: [Synth 8-3331] design imm_gen has unconnected port instr[14]
+WARNING: [Synth 8-3331] design imm_gen has unconnected port instr[13]
+WARNING: [Synth 8-3331] design imm_gen has unconnected port instr[12]
+WARNING: [Synth 8-3331] design instruction_memory has unconnected port addr[1]
+WARNING: [Synth 8-3331] design instruction_memory has unconnected port addr[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1941.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1941.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1941.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1941.172 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 1941.172 ; gain = 0.000
+23 Infos, 36 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 1941.172 ; gain = 0.000

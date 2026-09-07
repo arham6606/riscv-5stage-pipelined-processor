@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../bsce24054_lab8.srcs/sources_1/new/ALU.v" \
+"../../../../bsce24054_lab8.srcs/sources_1/new/alu_control.v" \
+"../../../../bsce24054_lab8.srcs/sources_1/new/control.v" \
+"../../../../bsce24054_lab8.srcs/sources_1/new/data-memory.v" \
+"../../../../bsce24054_lab8.srcs/sources_1/new/ex_mem.v" \
+"../../../../bsce24054_lab8.srcs/sources_1/new/forwarding_mux.v" \
+"../../../../bsce24054_lab8.srcs/sources_1/new/forwarding_unit.v" \
+"../../../../bsce24054_lab8.srcs/sources_1/new/hazard_detection.v" \
+"../../../../bsce24054_lab8.srcs/sources_1/new/id_ex.v" \
+"../../../../bsce24054_lab8.srcs/sources_1/new/if_id.v" \
+"../../../../bsce24054_lab8.srcs/sources_1/new/imm_gen.v" \
+"../../../../bsce24054_lab8.srcs/sources_1/new/instruction-memory.v" \
+"../../../../bsce24054_lab8.srcs/sources_1/new/mem_wb.v" \
+"../../../../bsce24054_lab8.srcs/sources_1/new/multiplexer.v" \
+"../../../../bsce24054_lab8.srcs/sources_1/new/pipeline.v" \
+"../../../../bsce24054_lab8.srcs/sources_1/new/program-counterr.v" \
+"../../../../bsce24054_lab8.srcs/sources_1/new/register.v" \
+"../../../../bsce24054_lab8.srcs/sources_1/new/pipeline_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

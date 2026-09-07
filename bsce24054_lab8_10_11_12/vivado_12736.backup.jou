@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon May  4 12:33:47 2026
+# Process ID: 12736
+# Current directory: C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14328 C:\Users\UnitechSolutions\Documents\Vivado xlinx\bsce24054_lab8\bsce24054_lab8\bsce24054_lab8.xpr
+# Log file: C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/vivado.log
+# Journal file: C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/UnitechSolutions/Documents/Vivado xlinx/bsce24054_lab8/bsce24054_lab8/bsce24054_lab8.xpr}
+update_compile_order -fileset sources_1
